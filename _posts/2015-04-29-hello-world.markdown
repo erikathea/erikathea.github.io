@@ -1,11 +1,14 @@
 ---
 title: "Hello World!"
 date: 2015-04-29 00:00:00
+redirect_from:
+ - /hello-world/
 categories: random
 ---
 {% highlight ruby %}
 println Hello World!
 {% endhighlight %}
 
-*a welcome message for you*
+*This is a welcome message and a cookie :cookie: for you*
 
+from: @erikathea

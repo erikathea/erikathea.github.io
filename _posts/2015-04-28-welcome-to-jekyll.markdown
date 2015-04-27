@@ -1,6 +1,8 @@
 ---
 title:  "Welcome to Jekyll!"
 date:   2015-04-28 01:29:28
+redirect_to:
+  - /random/2015/04/29/hello-world/
 categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
