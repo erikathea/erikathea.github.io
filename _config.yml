@@ -2,7 +2,7 @@
 title: CodeTravel
 email: erikatheaajes@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Weird/nerd Asian dudette. Programmer. Backpacker. Storyteller. Dreamer. Personal blog of Erika Thea Ajes.
+  Programmer. Backpacker. Storyteller. Dreamer. Personal site of Erika Thea Ajes.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://erikathea.github.io" #"http://erikathea.com" # the base hostname & protocol for your site
 twitter_username: erikathea
@@ -18,7 +18,8 @@ permalink: pretty
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :compressed # You might prefer to minify using :compressed
+  sass_dir: assets/stylesheets
+  style: :compressed
 
 # Use the following plug-ins
 gems:
