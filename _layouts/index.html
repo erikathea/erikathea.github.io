@@ -4,17 +4,19 @@
   {% include head.html %}
 
   <body>
+    {% include fly-object.html %}
 
-    <header class="site-header">
+    <header class="site-header container-fluid">
       {% include banner.html %}
       {% include navbar.html %}
     </header>
 
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="page-content container-fluid" role="main">
         {{ content }}
-      </div>
     </div>
+
+    {% include scripts.html %}
+    {% include navigation.html %}
 
   </body>
 
