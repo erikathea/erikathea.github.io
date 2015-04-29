@@ -3,21 +3,24 @@
 
   {% include head.html %}
 
-  <body>
-    {% include fly-object.html %}
+  <body class="container fluid">
+    <div class="skrollr-body">
+      {% include fly-object.html %}
 
-    <header class="site-header container-fluid">
-      {% include banner.html %}
-      {% include navbar.html %}
-    </header>
+      <header class="site-header row-fluid">
+        {% include banner.html %}
+        {% include navbar.html %}
+      </header>
 
-    <div class="page-content container-fluid" role="main">
-        {{ content }}
+      <div class="page-content row-fluid" role="main">
+          {{ content }}
+      </div>
+
+      {% include scripts.html %}
+      {% include navigation.html %}
+
+      <hr/>
     </div>
-
-    {% include scripts.html %}
-    {% include navigation.html %}
-
   </body>
 
 </html>

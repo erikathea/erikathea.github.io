@@ -20,7 +20,7 @@ body { padding-bottom: 70px; }
 }
 
 .banner {
-  height: 95vh;
+  height: 95vh !important;
   padding-top: 25px;
   .jumbotron {
     background: $white;
@@ -60,7 +60,6 @@ body { padding-bottom: 70px; }
     width: 40vw;
     height: 40vh;
     fill: $gray-transparent;
-    margin-left: 10px;
   }
 }
 
