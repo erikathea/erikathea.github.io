@@ -5,6 +5,7 @@
 
 $white: #fff;
 $gray-transparent: rgba(200, 200, 200, 0.75);
+$black-transparent: rgba(0, 0, 0, 0.65);
 
 body { padding-bottom: 70px; }
 
@@ -20,7 +21,7 @@ body { padding-bottom: 70px; }
 }
 
 .banner {
-  height: 95vh !important;
+  height: 100vh;
   background: $white;
   .content {
     h1 {
@@ -30,11 +31,12 @@ body { padding-bottom: 70px; }
 
   svg {
     display: block;
-    height: 27vh;
+    height: 25vh;
     margin: auto;
-    margin-top: 5vh;
+    margin-top: 4vh;
     vertical-align: middle;
-    transform: scale(5);
+    transform: scale(10);
+    fill: $black-transparent;
   }
 }
 
@@ -58,13 +60,28 @@ body { padding-bottom: 70px; }
   position: fixed;
   z-index: 99;
   left: 70%;
-  top: 50%;
+  top: 10%;
 
   > svg {
     vertical-align: baseline;
-    width: 40vw;
-    height: 40vh;
+    width: 35vw;
+    height: 35vh;
     fill: $gray-transparent;
+  }
+}
+
+.icon-static-object {
+  position: absolute;
+  z-index: 99;
+  right: 5%;
+  top: 10%;
+
+  > svg {
+    vertical-align: baseline;
+    width: 30vw;
+    height: 30vh;
+    fill: $gray-transparent;
+    transform: rotate(45deg);
   }
 }
 

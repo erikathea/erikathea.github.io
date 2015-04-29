@@ -4,13 +4,17 @@
   {% include head.html %}
 
   <body>
+    <header class="site-header">
+      {% include navbar.html %}
+    </header>
+
     <div id="skrollr-body">
       {% include fly-object.html %}
+      {% include static-object.html %}
 
-      <header class="site-header container">
+      <header class="container">
         <div class="row-fluid">
           {% include banner.html %}
-          {% include navbar.html %}
         </div>
       </header>
 
