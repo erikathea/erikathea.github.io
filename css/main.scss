@@ -21,15 +21,20 @@ body { padding-bottom: 70px; }
 
 .banner {
   height: 95vh !important;
-  padding-top: 25px;
-  .jumbotron {
-    background: $white;
-  }
+  background: $white;
   .content {
-    padding-top: 20%;
-      h1 {
-        font-weight: 800;
-      }
+    h1 {
+      font-weight: 800;
+    }
+  }
+
+  svg {
+    display: block;
+    height: 27vh;
+    margin: auto;
+    margin-top: 5vh;
+    vertical-align: middle;
+    transform: scale(5);
   }
 }
 
@@ -37,7 +42,7 @@ body { padding-bottom: 70px; }
 .page-content {
   background: $white;
   margin-top: 10px;
-  padding-top: 10px;
+
 }
 
 .icon {

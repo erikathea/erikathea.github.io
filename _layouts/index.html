@@ -3,17 +3,23 @@
 
   {% include head.html %}
 
-  <body class="container fluid">
-    <div class="skrollr-body">
+  <body>
+    <div id="skrollr-body">
       {% include fly-object.html %}
 
-      <header class="site-header row-fluid">
-        {% include banner.html %}
-        {% include navbar.html %}
+      <header class="site-header container">
+        <div class="row-fluid">
+          {% include banner.html %}
+          {% include navbar.html %}
+        </div>
       </header>
 
-      <div class="page-content row-fluid" role="main">
-          {{ content }}
+      <div class="page-content" role="main">
+          <div class="container">
+            <div class="row">
+              {{ content }}
+            </div>
+          </div>
       </div>
 
       {% include scripts.html %}
