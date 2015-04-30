@@ -24,6 +24,7 @@ body { padding-bottom: 70px; }
   height: 100vh;
   background: $white;
   .content {
+    max-height: 100%;
     h1 {
       font-weight: 800;
     }
@@ -31,7 +32,6 @@ body { padding-bottom: 70px; }
 
   svg {
     display: block;
-    height: 25vh;
     margin: auto;
     margin-top: 4vh;
     vertical-align: middle;
