@@ -1,0 +1,33 @@
+---
+layout: solen-demo
+title: Solen Demo
+excerpt: Demo site for solen.com.ph
+---
+
+<div role="tabpanel">
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane fade in active" id="home">
+      {% include solen-demo/carousel.html %}
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="about-solen">
+      {% include solen-demo/about.html %}
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="discover-solen">...</div>
+    <div role="tabpanel" class="tab-pane fade" id="amenities">...</div>
+    <div role="tabpanel" class="tab-pane fade" id="vicinity">...</div>
+    <div role="tabpanel" class="tab-pane fade" id="faq">
+      <div class="container-fluid">
+        <h2>Buying Basics/FAQ</h2>
+        {% include solen-demo/faq.html %}
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="contact">
+      <div class="container-fluid">
+        <h2>Contact Us</h2>
+        {% include solen-demo/contact.html %}
+      </div>
+    </div>
+  </div>
+
+</div>

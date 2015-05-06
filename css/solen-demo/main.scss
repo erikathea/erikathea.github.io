@@ -1,0 +1,108 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+$white: #fff;
+$yellow: #ebf532;
+$yellow-light: lighten($yellow, 13.5%);
+$yellow-lighten: lighten($yellow, 5.5%);
+$brown: #3b2317;
+
+body { padding-top: 70px; }
+body, h1, h2, h3, h4, h5 {
+  font-family: "Helvetica Neue", Helvetica, Arial !important;
+}
+
+.site-header {
+  .logo {
+    max-height: 150px;
+    float: left;
+  }
+
+  .navbar-default {
+    background-color: $yellow-light;
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+      background-color: transparent;
+      color: $brown;
+    }
+
+    .nav>li>a:hover, .nav>li>a:focus {
+      background-color: $yellow-lighten;
+      border: none;
+    }
+
+    .navbar-brand {
+      color: $brown;
+    }
+  }
+}
+
+.title {
+  font-style: italic;
+  font-family: 'Pacifico', cursive !important;
+  color: $brown;
+}
+
+.page-content {
+  background-color: $white;
+
+  .nav-tabs {
+    background-color: $yellow-light;
+
+    li {
+      font-variant: small-caps;
+      font-size: 18px;
+    }
+
+  }
+
+  .tab-pane {
+    min-height: 100vh;
+    padding-bottom: 10px;
+  }
+
+  .wrapper {
+    .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+      margin: auto;
+    }
+  }
+
+}
+
+footer {
+  background-color: $yellow-light;
+
+  div {
+    padding-top: 10px;
+
+    .logo {
+      float: right;
+      max-height: 175px;
+    }
+
+    .icon {
+      max-width: 16px;
+      max-height: 16px;
+      display: inline;
+    }
+
+    li {
+      line-height: 2;
+    }
+
+    .copyright {
+      border-top: $yellow solid 1px;
+      background-color: $brown;
+      color: $yellow;
+    }
+  }
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0px!important;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "bootstrap";
