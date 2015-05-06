@@ -10,7 +10,7 @@ $yellow-light: lighten($yellow, 13.5%);
 $yellow-lighten: lighten($yellow, 5.5%);
 $brown: #3b2317;
 
-body { padding-top: 70px; }
+body { padding-top: 65px; }
 body, h1, h2, h3, h4, h5 {
   font-family: "Helvetica Neue", Helvetica, Arial !important;
 }
@@ -66,6 +66,12 @@ body, h1, h2, h3, h4, h5 {
   .wrapper {
     .carousel-inner>.item>img, .carousel-inner>.item>a>img {
       margin: auto;
+    }
+    .thumbnail {
+      background: transparent;
+      img {
+        max-height: 160px;
+      }
     }
   }
 
