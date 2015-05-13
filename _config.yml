@@ -2,7 +2,7 @@
 title: CodeTravel
 email: erikatheaajes@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Programmer. Backpacker. Storyteller. Dreamer. Personal site of Erika Thea.
+  Dev. Backpacker. Storyteller. Dreamer. Personal site of Erika Thea.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://erikathea.github.io" #"http://erikathea.com" # the base hostname & protocol for your site
 twitter_username: erikathea

@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
 
-  {% include head.html %}
+  {% include index/head.html %}
 
   <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
     <header class="site-header">
       {% include navbar.html %}
     </header>
 
     <div id="skrollr-body">
-      {% include fly-object.html %}
-      {% include static-object.html %}
+      <!-- {% include index/fly-object.html %}
+      {% include index/static-object.html %} -->
 
-      <header class="container">
-        <div class="row-fluid">
-          {% include banner.html %}
+      <header>
+        <div class="banner">
+          {% include index/banner.html %}
         </div>
       </header>
 
@@ -26,8 +30,8 @@
           </div>
       </div>
 
-      {% include scripts.html %}
-      {% include navigation.html %}
+      {% include index/scripts.html %}
+      {% include index/skrollr.html %}
 
       <hr/>
     </div>

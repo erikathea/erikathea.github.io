@@ -1,0 +1,79 @@
+---
+# Fixed Position CSS for skrollr
+---
+@charset "utf-8";
+$white: #fff;
+$gray-transparent: rgba(200, 200, 200, 0.75);
+$black-transparent: rgba(0, 0, 0, 0.65);
+
+
+body {padding-bottom: 70px;}
+
+.banner {
+  height: 100vh;
+  padding-top: 10vh;
+  background: $white;
+  div.jumbotron {
+    padding-bottom: 14px;
+  }
+  svg {
+    display: block;
+    margin: auto;
+    margin-top: 4vh;
+    vertical-align: middle;
+    transform: scale(10);
+    fill: $black-transparent;
+  }
+}
+
+
+.page-content {
+  background: $white;
+  margin-top: 10px;
+
+}
+
+.icon {
+    > svg {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        vertical-align: middle;
+    }
+}
+
+.icon--fly-object {
+  position: fixed;
+  z-index: 99;
+  top: 10px;
+
+  > svg {
+    vertical-align: baseline;
+    width: 35vw;
+    height: 35vh;
+    fill: $gray-transparent;
+  }
+}
+
+.icon-static-object {
+  position: absolute;
+  z-index: 99;
+  right: 5%;
+  top: 15px;
+
+  > svg {
+    vertical-align: baseline;
+    width: 40vw;
+    height: 40vh;
+    fill: $gray-transparent;
+    transform: rotate(45deg);
+  }
+}
+
+#svg-path {
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+}
+
+@import "bootstrap";
