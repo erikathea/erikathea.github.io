@@ -5,6 +5,7 @@
 $white: #fff;
 $gray-transparent: rgba(200, 200, 200, 0.75);
 $black-transparent: rgba(0, 0, 0, 0.85);
+$blue: rgba(31, 99, 158, 1.0);
 
 
 body {padding-bottom: 70px;}
@@ -38,22 +39,40 @@ body {padding-bottom: 70px;}
 
   .jumbotron {
     margin-bottom: 0px;
-  }
-
-  article {
-    min-height: 100vh;
-  }
-
-  #dev {
-    background: url('../assets/images/index/picjumbo_IMG_4893.jpg')no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
+    article {
+      min-height: 100vh;
+    }
+  }
+
+  #dev {
+    background: url('../assets/images/index/picjumbo_IMG_4893.jpg')no-repeat center center fixed;
     .content {
       padding: 5vh;
       background: rgba(255, 255, 255, 0.25);
+    }
+  }
+
+  #dreamer {
+    background: url('../assets/images/index/photo-vinoth-chandar.jpg')no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .content {
+      padding: 5vh;
+      background: rgba(255, 255, 255, 0.15);
+      h1 {
+        color: $white;
+        border-radius: 0.25em;
+        text-align: center;
+        padding: 0.25em;
+        background: rgba(0, 0, 0, 0.3);
+      }
     }
   }
 
@@ -63,10 +82,25 @@ body {padding-bottom: 70px;}
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     .content {
       padding: 5vh;
-      background: rgba(255, 255, 255, 0.25);
+      background: rgba(255, 255, 255, 0.45);
+    }
+  }
+
+  #storyteller {
+    background: url('../assets/images/index/unsplash-typewriter.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .content dl {
+      background: rgba(200, 200, 44, 0.75);
+      a { color: $blue; }
+      a:hover, a:focus { color: lighten($blue, 33.6%); }
+      dd {
+        font-weight: bolder;
+      }
     }
   }
 
