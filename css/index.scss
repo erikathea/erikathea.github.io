@@ -4,7 +4,7 @@
 @charset "utf-8";
 $white: #fff;
 $gray-transparent: rgba(200, 200, 200, 0.75);
-$black-transparent: rgba(0, 0, 0, 0.65);
+$black-transparent: rgba(0, 0, 0, 0.85);
 
 
 body {padding-bottom: 70px;}
@@ -12,9 +12,15 @@ body {padding-bottom: 70px;}
 .banner {
   height: 100vh;
   padding-top: 10vh;
-  background: $white;
+  background: url('../assets/images/index/unsplash-skyline.jpg')no-repeat center bottom fixed $white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
   div.jumbotron {
     padding-bottom: 14px;
+    background: rgba(0, 0, 50, 0.2);
   }
   svg {
     display: block;
@@ -22,14 +28,47 @@ body {padding-bottom: 70px;}
     margin-top: 4vh;
     vertical-align: middle;
     transform: scale(10);
-    fill: $black-transparent;
+    fill: $gray-transparent;
   }
 }
 
 
 .page-content {
   background: $white;
-  margin-top: 10px;
+
+  .jumbotron {
+    margin-bottom: 0px;
+  }
+
+  article {
+    min-height: 100vh;
+  }
+
+  #dev {
+    background: url('../assets/images/index/picjumbo_IMG_4893.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    .content {
+      padding: 5vh;
+      background: rgba(255, 255, 255, 0.25);
+    }
+  }
+
+  #backpacker {
+    background: url('../assets/images/index/unsplash-20140717_212636-3.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    .content {
+      padding: 5vh;
+      background: rgba(255, 255, 255, 0.25);
+    }
+  }
 
 }
 
@@ -49,23 +88,23 @@ body {padding-bottom: 70px;}
 
   > svg {
     vertical-align: baseline;
-    width: 35vw;
-    height: 35vh;
-    fill: $gray-transparent;
+    width: 30vw;
+    height: 30vh;
+    fill: $black-transparent;
   }
 }
 
 .icon-static-object {
   position: absolute;
   z-index: 99;
-  right: 5%;
+  right: -5%;
   top: 15px;
 
   > svg {
     vertical-align: baseline;
     width: 40vw;
     height: 40vh;
-    fill: $gray-transparent;
+    fill: $black-transparent;
     transform: rotate(45deg);
   }
 }
