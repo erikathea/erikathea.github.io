@@ -4,8 +4,22 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
 You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+
+[Twitter Bootstrap](https://getbootstrap.com/)
+
+Background images from Unsplash.com
+https://unsplash.com/negativespace
+https://unsplash.com/florianklauer
+https://unsplash.com/loudge
+https://unsplash.com/carlijeanmiller
+
+SVG designed by Freepik
+
+Skrllr https://github.com/Prinzhorn/skrollr
+https://ihatetomatoes.net/make-parallax-website-responsive/
+
+Tutorials
+http://erjjones.github.io/blog/How-I-built-my-blog-in-one-day/
+http://yizeng.me/2013/05/26/create-a-custom-jekyll-404-page/
+https://css-tricks.com/perfect-full-page-background-image/
