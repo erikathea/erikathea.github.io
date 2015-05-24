@@ -89,6 +89,7 @@ body {padding-bottom: 70px;}
     .content {
       padding: 5vh;
       background: rgba(255, 255, 255, 0.45);
+      font-variant: small-caps;
     }
   }
 
@@ -104,6 +105,7 @@ body {padding-bottom: 70px;}
       a:hover, a:focus { color: lighten($blue, 33.6%); }
       dd {
         font-weight: bolder;
+        font-variant: small-caps;
       }
     }
   }

@@ -43,14 +43,7 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-face {
-  font-family: 'Slim Joe';
-  font-style: normal;
-  font-weight: 500;
-  src: url("/assets/fonts/Slim Joe.otf");
-}
-
-$font-family-sans-serif:  "Slim Joe", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
