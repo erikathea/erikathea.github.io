@@ -118,12 +118,14 @@ body {padding-bottom: 70px;}
   z-index: 99;
   top: 10px;
 
-  > svg {
+  #ufo {
     vertical-align: baseline;
     width: 30vw;
     height: 30vh;
     fill: $black-transparent;
+    enable-background:new 0 0 338.211 338.211;
   }
+
 }
 
 .icon-static-object {
@@ -132,16 +134,16 @@ body {padding-bottom: 70px;}
   right: -5%;
   top: 15px;
 
-  > svg {
+  #plane {
     vertical-align: baseline;
     width: 40vw;
     height: 40vh;
     fill: $black-transparent;
     transform: rotate(45deg);
+    enable-background:new 0 0 45.751 45.75;
   }
 }
 
-/* SVG images below */
 #svg-path {
   position: absolute;
   top: -10000px;
@@ -155,14 +157,5 @@ body {padding-bottom: 70px;}
     stroke-opacity:1;
   }
 }
-
-#ufo {
-  enable-background:new 0 0 338.211 338.211;
-}
-
-#plane {
-  enable-background:new 0 0 45.751 45.75;
-}
-
 
 @import "bootstrap";

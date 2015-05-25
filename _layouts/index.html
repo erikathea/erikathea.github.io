@@ -16,8 +16,12 @@
       {% include index/fly-object.html %}
       {% include index/static-object.html %}
 
-      <header>
-        <div class="banner">
+      <header id="site-banner">
+        <div class="banner"
+          data-center="background-position: 50% 0px;"
+          data-top-bottom="background-position: 50% -100px;"
+          data-anchor-target="#site-banner"
+        >
           {% include index/banner.html %}
         </div>
       </header>
