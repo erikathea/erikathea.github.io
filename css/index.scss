@@ -23,14 +23,6 @@ body {padding-bottom: 70px;}
     padding-bottom: 14px;
     background: rgba(0, 0, 50, 0.2);
   }
-  svg {
-    display: block;
-    margin: auto;
-    margin-top: 4vh;
-    vertical-align: middle;
-    transform: scale(10);
-    fill: $gray-transparent;
-  }
 }
 
 
@@ -149,10 +141,28 @@ body {padding-bottom: 70px;}
   }
 }
 
+/* SVG images below */
 #svg-path {
   position: absolute;
   top: -10000px;
   left: -10000px;
+  #path-scribble {
+    fill:none;
+    stroke:#ff0000;
+    stroke-width:4;
+    stroke-linecap:butt;
+    stroke-linejoin:miter;
+    stroke-opacity:1;
+  }
 }
+
+#ufo {
+  enable-background:new 0 0 338.211 338.211;
+}
+
+#plane {
+  enable-background:new 0 0 45.751 45.75;
+}
+
 
 @import "bootstrap";
