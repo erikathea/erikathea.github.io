@@ -6,89 +6,34 @@
 $white: #fff;
 $gray-transparent: rgba(200, 200, 200, 0.75);
 $black-transparent: rgba(0, 0, 0, 0.65);
+$background-black: #222;
 
 body { padding-bottom: 70px; }
 
-.text-vcenter {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-
-  h1 {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-.banner {
-  min-height: 100vh;
-  background: $white;
-  .jumbotron {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  svg {
-    display: block;
-    margin: auto;
-    margin-top: 4vh;
-    vertical-align: middle;
-    transform: scale(10);
-    fill: $black-transparent;
-  }
-}
-
-
 .page-content {
-  background: $white;
   margin-top: 10px;
-
-}
-
-.icon {
-    > svg {
-        display: inline-block;
-        width: 14px;
-        height: 14px;
-        vertical-align: middle;
+  .post-header {
+    background: $background-black;
+    margin-bottom: 0px;
+    h1 {
+      color: $white;
+      margin-bottom: 0px;
     }
-}
-
-.icon--fly-object {
-  position: fixed;
-  z-index: 99;
-  top: 10px;
-
-  > svg {
-    vertical-align: baseline;
-    width: 35vw;
-    height: 35vh;
-    fill: $gray-transparent;
+  }
+  .post-content {
+    background: $white;
+    padding: 15px;
+    margin-top: -12px;
   }
 }
 
-.icon-static-object {
-  position: absolute;
-  z-index: 99;
-  right: 5%;
-  top: 15px;
-
-  > svg {
-    vertical-align: baseline;
-    width: 40vw;
-    height: 40vh;
-    fill: $gray-transparent;
-    transform: rotate(45deg);
+.site-footer {
+  .icon > svg {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
   }
-}
-
-#svg-path {
-  position: absolute;
-  top: -10000px;
-  left: -10000px;
-}
-
-#skrollr-body .page-content {
-  margin-top: 50vh;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
