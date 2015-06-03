@@ -15,8 +15,8 @@ body { padding-bottom: 70px; }
   .post-header {
     background: $background-black;
     margin-bottom: 0px;
+    color: $white;
     h1 {
-      color: $white;
       margin-bottom: 0px;
     }
   }
@@ -24,6 +24,12 @@ body { padding-bottom: 70px; }
     background: $white;
     padding: 15px;
     margin-top: -12px;
+  }
+
+  .post-footer {
+    color: $white;
+    font-weight: bolder;
+    font-variant: small-caps;
   }
 }
 
