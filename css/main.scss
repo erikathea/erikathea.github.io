@@ -7,8 +7,19 @@ $white: #fff;
 $gray-transparent: rgba(200, 200, 200, 0.75);
 $black-transparent: rgba(0, 0, 0, 0.65);
 $background-black: #222;
+$blue: rgba(31, 99, 158, 1.0);
 
-body { padding-bottom: 70px; }
+body { padding-top: 70px; }
+
+header {
+  nav {
+    li {
+      a.page-link:hover, a.navbar-brand:active {
+        color: $blue !important;
+      }
+    }
+  }
+}
 
 .page-content {
   margin-top: 10px;

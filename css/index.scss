@@ -10,6 +10,16 @@ $blue: rgba(31, 99, 158, 1.0);
 
 body {padding-bottom: 70px;}
 
+header {
+  nav {
+    li {
+      a.page-link:hover, a.navbar-brand:active {
+        color: $blue !important;
+      }
+    }
+  }
+}
+
 .banner {
   height: 100vh;
   padding-top: 10vh;
@@ -130,7 +140,6 @@ body {padding-bottom: 70px;}
 
 .icon-static-object {
   position: absolute;
-  z-index: 99;
   right: -5%;
   top: 15px;
 

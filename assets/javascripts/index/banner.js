@@ -12,7 +12,8 @@
         },
         edgeStrategy: 'ease',
         render: function(data) {
-            if(data.curTop === data.maxTop) {
+            var maxTop = parseFloat(data.maxTop) * 0.95;
+            if(data.curTop >= maxTop) {
                 this.setScrollTop(0, true);
             }
         }
