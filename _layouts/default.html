@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en">
 
   {% include head.html %}
 
@@ -8,14 +8,19 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    {% include side-panel.html %}
+    <header class="site-header col-md-12">
+      <nav class="navbar navbar-static-top pull-left" >
+        {% include navbar.html %}
+      </nav>
+    </header>
 
-    <div class="page-content col-md-10 col-xs-12">
+    <div class="page-content col-md-9 col-xs-12">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
 
+    {% include side-panel.html %}
     {% include scripts.html %}
 
   </body>

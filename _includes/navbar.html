@@ -1,18 +1,16 @@
 <div class="container-fluid">
   <ul class="list-inline list-unstyled" role="navigation">
       <li>
-        <a href="{{ site.baseurl }}/" class="navbar-brand">
-          {{ site.title }}<span class="sr-only">(current)</span>
-        </a>
+        <a href="{{ site.baseurl }}/" class="page-link navbar-brand"><h2><span class="glyphicon glyphicon-home"></span> Home</h2></a>
       </li>
       <li>
-        <a href="{{ site.baseurl }}/" class="navbar-brand">Home <span class="sr-only">(current)</span></a>
+        <a class="page-link navbar-brand" href="{{ site.baseurl }}/blog" ><h2><span>{% include svg/notebook.html %}</span> Blog</h2></a>
       </li>
       <li>
-        <a class="page-link navbar-brand" href="{{ site.baseurl }}/blog" >Blog</a>
+        <a class="page-link navbar-brand" href="{{ site.baseurl }}/about"><h2><span>{% include svg/girl.html %}</span> About</h2></a>
       </li>
       <li>
-        <a class="page-link navbar-brand" href="{{ site.baseurl }}/about">About</a>
+        <a class="page-link navbar-brand" href="{{ site.baseurl }}/contact"><h2><span>{% include svg/contact.html %}</span> Contact</h2></a>
       </li>
   </ul>
 </div>

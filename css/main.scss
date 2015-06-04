@@ -9,26 +9,44 @@ $black-transparent: rgba(0, 0, 0, 0.65);
 $background-black: #222;
 $blue: rgba(31, 99, 158, 1.0);
 
-body { padding-top: 70px; }
-
 header {
-  nav {
-    li {
-      a.page-link:hover, a.navbar-brand:active {
+  nav.navbar-static-top {
+    margin-bottom: 0px !important;
+    ul{
+      margin-bottom: 0px !important;
+      li {
+        a {
+          color: $white;
+          -webkit-tap-highlight-color: $blue !important;
+          .icon {
+            display: inline;
+            svg {
+              width: 1em;
+              height: 1em;
+              path { fill: $white; }
+            }
+          }
+        }
+        a:hover {
+          color: $blue !important;
+        }
+      }
+      li:hover {
         color: $blue !important;
+        .icon svg path { fill: $blue; }
       }
     }
   }
 }
 
 .page-content {
-  margin-top: 10px;
   .post-header {
     background: $background-black;
     margin-bottom: 0px;
     color: $white;
     h1 {
-      margin-bottom: 0px;
+      margin-bottom: -5px;
+      font-size: 4em;
     }
   }
   .post-content {
