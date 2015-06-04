@@ -1,14 +1,14 @@
 # Site settings
 title: CodeTravel
 email: hello@erikathea.com
-description: > # this means to ignore newlines until "baseurl:"
-  Dev. Backpacker. Storyteller. Dreamer. Personal site of Erika Thea.
+description: Dev. Backpacker. Storyteller. Dreamer. Personal site of Erika Thea.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://erikathea.com" # the base hostname & protocol for your site
 enforce_ssl: "www.erikathea.com"
 twitter_username: erikathea
 github_username:  erikathea
 disqus: codetravel
+owner: erikathea
 
 jekyll-mentions: https://twitter.com
 

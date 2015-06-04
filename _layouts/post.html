@@ -3,28 +3,39 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header col-md-12 col-xs-12">
-    <h1 class="post-title">
+  <header class="post-header col-md-12 col-xs-12 page-header">
+    <h1 class="post-title text-right">
       {{ page.title }}
-
-      <small class="pull-right">
-        <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} •</span>
-      </small>
     </h1>
-
   </header>
 
   <article class="post-content col-md-12 col-xs-12">
+    <small class="pull-right label label-success">
+      <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}</span>
+    </small>
+    <br/>
     {{ content }}
   </article>
 
   <footer class="post-footer col-md-12 col-xs-12">
-    <p class="post-categories">
-      {% if page.categories %} {{ page.categories | array_to_sentence_string }} {% endif %}
-    </p>
-    <p class="post-tags">
-      {% if page.tags %} {{ page.tags | array_to_sentence_string }} {% endif %}
-    </p>
+    <ul class="post-categories list-unstyled list-inline">
+      {% if page.categories %}
+        {% for category in page.categories %}
+          <li><span class="label label-default">
+            {{ category }}
+          </span></li>
+        {% endfor %}
+      {% endif %}
+    </ul>
+    <ul class="post-tags list-unstyled list-inline">
+      {% if page.tags %}
+        {% for tag in page.tags %}
+          <li><span class="label label-default">
+            {{ tag }}
+          </span></li>
+        {% endfor %}
+      {% endif %}
+    </ul>
   </footer>
 
 </div>

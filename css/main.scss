@@ -8,6 +8,7 @@ $gray-transparent: rgba(200, 200, 200, 0.75);
 $black-transparent: rgba(0, 0, 0, 0.65);
 $background-black: #222;
 $blue: rgba(31, 99, 158, 1.0);
+$dark-blue: #23527c;
 
 header {
   nav.navbar-static-top {
@@ -18,14 +19,6 @@ header {
         a {
           color: $white;
           -webkit-tap-highlight-color: $blue !important;
-          .icon {
-            display: inline;
-            svg {
-              width: 1em;
-              height: 1em;
-              path { fill: $white; }
-            }
-          }
         }
         a:hover {
           color: $blue !important;
@@ -39,20 +32,35 @@ header {
   }
 }
 
+.icon {
+  display: inline;
+  svg {
+    width: 1em;
+    height: 1em;
+    path { fill: $white; }
+  }
+}
+
 .page-content {
   .post-header {
     background: $background-black;
     margin-bottom: 0px;
     color: $white;
     h1 {
-      margin-bottom: -5px;
+      margin-bottom: 0px;
       font-size: 4em;
     }
   }
+
   .post-content {
     background: $white;
     padding: 15px;
     margin-top: -12px;
+    border-radius: 5px;
+
+    .post-list {
+      .icon svg path { fill: $dark-blue; }
+    }
   }
 
   .post-footer {

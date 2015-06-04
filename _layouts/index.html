@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-  {% include index/head.html %}
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="{{ "/css/index.css" | prepend: site.baseurl }}">
+  </head>
 
   <body>
     <!--[if lt IE 8]>

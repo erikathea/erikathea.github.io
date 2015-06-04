@@ -1,26 +1,41 @@
-<head>
-  <script type="text/javascript">
-    var host = "erikathea.com";
-    if ((host == window.location.host) && (window.location.protocol != "https:"))
-        window.location.protocol = "https";
-  </script>
+<script type="text/javascript">
+  var host = "erikathea.com";
+  if ((host == window.location.host) && (window.location.protocol != "https:"))
+      window.location.protocol = "https";
+</script>
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <!-- Place favicon.ico in the root directory -->
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- Place favicon.ico in the root directory -->
 
-  <script type="text/javascript" src="{{ site.baseurl }}/assets/javascripts/modernizr-2.8.3.min.js"></script>
+<link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}">
 
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-</head>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/javascripts/modernizr-2.8.3.min.js"></script>
+
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+
+<meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}" />
+
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:image" content="{{ page.thumbnail }}" />
+
+{% capture page_url %}{{ page.url | replace:'/index.html','/' | append: site.url | append: site.baseurl }}{% endcapture %}
+<meta property="og:url" content="{{ page_url }}" />
+
+<meta property="article:author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.owner }}{% endif %}" />
+
+<link rel="author" href="{% if page.author %}{{ page.author }}{% else %}{{ site.baseurl }}/about{% endif %}" />
+
+<meta property="og:locale" content="en_US" />

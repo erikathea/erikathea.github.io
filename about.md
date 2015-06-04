@@ -41,6 +41,7 @@ Tutorials over the web that I read:
 * [Free SSL for Github Pages with Custom Domains](https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/)
 * [Perfect Full Page Background Image](https://css-tricks.com/perfect-full-page-background-image/)
 * [Custom Jekyll 404 Page](http://yizeng.me/2013/05/26/create-a-custom-jekyll-404-page/)
+*  [Open Graph for Jekyll](https://gist.github.com/pathawks/1406355)
 
 ***
 
