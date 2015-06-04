@@ -15,7 +15,7 @@ jekyll-mentions: https://twitter.com
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-permalink: pretty
+permalink: /blog/:title/
 
 # Set the Sass partials directory, as we're using @imports
 sass:
