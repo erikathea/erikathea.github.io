@@ -3,6 +3,7 @@
 ---
 @charset "utf-8";
 $white: #fff;
+$gray: rgba(200, 200, 200, 1);
 $gray-transparent: rgba(200, 200, 200, 0.75);
 $black-transparent: rgba(0, 0, 0, 0.85);
 $blue: rgba(31, 99, 158, 1.0);
@@ -12,11 +13,20 @@ body {padding-bottom: 70px;}
 
 header {
   nav {
+    min-height: auto !important;
+    height: auto;
     ul {
       margin-bottom: 0px !important;
       li {
-        padding-right: 4px !important;
-        a { background-color: black !important; }
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin-right: -10px;
+        a {
+          background-color: $black-transparent !important;
+        }
+        #brand {
+          color: $gray !important;
+        }
         a.page-link:hover, a.navbar-brand:active {
           color: $blue !important;
         }
@@ -149,13 +159,13 @@ header {
 
 .icon-static-object {
   position: absolute;
-  right: 3px;
+  right: 10%;
   top: 15px;
 
   #plane {
     vertical-align: baseline;
-    width: 40vw;
-    height: 40vh;
+    width: 20vw;
+    height: 20vh;
     fill: $black-transparent;
     transform: rotate(45deg);
     enable-background:new 0 0 45.751 45.75;
