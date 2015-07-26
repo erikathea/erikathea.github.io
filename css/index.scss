@@ -12,9 +12,14 @@ body {padding-bottom: 70px;}
 
 header {
   nav {
-    li {
-      a.page-link:hover, a.navbar-brand:active {
-        color: $blue !important;
+    ul {
+      margin-bottom: 0px !important;
+      li {
+        padding-right: 4px !important;
+        a { background-color: black !important; }
+        a.page-link:hover, a.navbar-brand:active {
+          color: $blue !important;
+        }
       }
     }
   }
@@ -144,7 +149,7 @@ header {
 
 .icon-static-object {
   position: absolute;
-  right: -5%;
+  right: 3px;
   top: 15px;
 
   #plane {
