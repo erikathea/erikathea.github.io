@@ -8,6 +8,7 @@ categories:
 - scribbles
 - college days
 excerpt: Autobiography assignment for my PI100 class. She does not like the feeling of losing. Thus, she fears falling from her throne. In her gaming world, she is the heroine who seeks freedom from obligations and unwanted expectations.
+banner: /assets/images/erikathea-595x595.jpg
 ---
 #####PI100 T0307 Autobiography
 
