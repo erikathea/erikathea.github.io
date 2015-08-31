@@ -1,0 +1,60 @@
+/* Uses a transparent header that draws on top of the layout's background */
+.demo-layout-transparent {
+  /*background: url('../assets/images/erikathea.jpg') bottom right no-repeat fixed cover;*/
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button,
+.demo-layout-transparent .mdl-navigation a.mdl-navigation__link {
+  color: #424242;
+}
+
+.center {
+  margin: 0 auto !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-bottom-15 {
+  margin-bottom: 1.5em;
+}
+
+.mdl-card__title {
+  height: 176px;
+}
+
+h2.mdl-card__title-text {
+  padding: 5px;
+  text-shadow: 1px 1px 5px black;
+}
+
+.page-content a,
+.banner a i {
+  text-decoration: none;
+  border-bottom: 1px dotted #ffe082;
+  color: #ffab40;
+}
+
+.page-content a:hover,
+.banner a:hover i {
+  color: #ff8f00;
+}
+
+.copyright a,
+footer .links a,
+.social a {
+  text-decoration: none;
+  border-bottom: 1px dotted #ffe082;
+  color: #fff;
+}
+
+.copyright a:hover,
+footer .links a:hover,
+.social a:hover {
+  color: #bdbdbd;
+}
+.no-text-decor {
+  text-decoration: none;
+}
