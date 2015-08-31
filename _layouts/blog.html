@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="{{ "/assets/stylesheets/flaticon/flaticon.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/stylesheets/mdl/material.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/stylesheets/mdl/material.blue_grey-orange.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="{{ "/css/blog.css" | prepend: site.baseurl }}">
+  </head>
+
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout__header--scroll">
+
+      {% include blog/nav.html %}
+
+      <main class="page-content mdl-layout__content" role="main">
+      {{ content }}
+      </main>
+
+      {% include blog/footer.html %}
+    </div>
+
+    {% include index/scripts.html %}
+    <script type="text/javascript" src="{{ site.baseurl }}/assets/javascripts/material.min.js"></script>
+  </body>
+
+</html>
