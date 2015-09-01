@@ -18,13 +18,14 @@
 }
 
 .margin-bottom-15 {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5em !important;
 }
 
 .mdl-card__title {
   height: 176px;
 }
 
+h1.mdl-card__title-text,
 h2.mdl-card__title-text {
   padding: 5px;
   text-shadow: 1px 1px 5px black;
@@ -55,6 +56,11 @@ footer .links a:hover,
 .social a:hover {
   color: #bdbdbd;
 }
+
 .no-text-decor {
   text-decoration: none;
+}
+
+ul.list-inline li {
+  display: inline;
 }

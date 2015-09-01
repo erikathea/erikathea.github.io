@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: About
 permalink: /about/
 ---
@@ -20,7 +20,7 @@ Why just now? I am lazy and have a short attention span. I had a hard time balan
 
 ### How I Made This Site
 
-> *"I googled it!"*
+<blockquote> I googled it! </blockquote>
 
 My main objective in creating this space is for me to upgrade my skillset. So, decided to use [Jekyll](https://github.com/jekyll/jekyll) because this is just a static site. I use [Twitter Bootstrap](https://getbootstrap.com/) for the front-end to make the site responsive. I stumbled upon [Skrollr](https://github.com/Prinzhorn/skrollr) and used it to achieve some simple effects or animations.
 
