@@ -8,7 +8,7 @@ categories:
 - scribbles
 - college days
 - high school days
-excerpt: Searca, IRRI, PhilRice, and Tahanan Books Publishing house launches our work, "The Adventures of Gabby Ghas", at 2009 Manila Book Fair last September 29. Everyone was asking for our autographs! Kidding! But we did give autographs.
+excerpt: Searca, IRRI, PhilRice, and Tahanan Books Publishing house launches our work, The Adventures of Gabby Ghas, at 2009 Manila Book Fair last September 29. Everyone was asking for our autographs! Kidding! But we did give autographs.
 banner: /assets/images/posts/gabby-ghas-illustration.jpg
 ---
 #####Book Launching: The Adventures of  Gabby Ghas
