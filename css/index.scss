@@ -44,10 +44,8 @@ header {
   div.jumbotron {
     padding-bottom: 14px;
     background: rgba(0, 0, 50, 0.2);
-    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
   }
 }
 
@@ -166,15 +164,15 @@ header {
 
 .icon-static-object {
   position: absolute;
-  right:-30%;
-  top: -5%;
+  right: 10%;
+  top: 15%;
 
   #plane {
     vertical-align: baseline;
     width: 200px;
     height: 100px;
     fill: $black-transparent;
-    transform: rotate(45deg) scale(1.25);
+    transform: rotate(45deg) scale(1.75);
     enable-background:new 0 0 45.751 45.75;
   }
 }
