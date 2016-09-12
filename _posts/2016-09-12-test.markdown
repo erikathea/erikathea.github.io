@@ -1,6 +1,13 @@
 ---
-title: Test
+title: Testing CMS for Github Pages
 date: 2016-09-12 19:15:00 Z
 ---
 
-testing one
+Hello everyone!
+
+This is a post from Siteleaf.
+I also tried CloudCannon.
+Leaning towards this one - a cleaner version of Wordpress portal.
+
+Why am I trying this out?
+Because I need to help my aunt to update their website.
