@@ -17,7 +17,7 @@ defaults:
     author: erikathea
 email: hello@erikathea.com
 description: Dev. Backpacker. Storyteller. Dreamer. Personal site of Erika Thea.
-baseurl: 
+baseurl: ''
 url: https://erikathea.com
 enforce_ssl: www.erikathea.com
 twitter_username: erikathea
@@ -30,7 +30,7 @@ highlighter: rouge
 permalink: "/blog/:title/"
 sass:
   sass_dir: assets/stylesheets
-  style: compressed
+  style: :compressed
 gems:
 - jekyll-sitemap
 - jekyll-mentions
