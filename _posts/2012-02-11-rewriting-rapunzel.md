@@ -1,7 +1,6 @@
 ---
 title: Rewriting Rapunzel
 date: 2012-02-11 00:00:00 Z
-permalink: "/rewriting-rapunzel"
 categories:
 - autobigraphy
 - scribbles

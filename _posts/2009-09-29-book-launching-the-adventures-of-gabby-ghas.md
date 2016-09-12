@@ -1,7 +1,6 @@
 ---
 title: 'Book Launching: The Adventures of Gabby Ghas'
 date: 2009-09-29 00:00:00 Z
-permalink: "/book-launching-the-adventures-of-gabby-ghas"
 categories:
 - the adventures of gabby ghas
 - scribbles
@@ -14,7 +13,7 @@ excerpt: Searca, IRRI, PhilRice, and Tahanan Books Publishing house launches our
 banner: "/assets/images/posts/gabby-ghas-illustration.jpg"
 ---
 
-#####Book Launching: The Adventures of  Gabby Ghas
+##### Book Launching: The Adventures of  Gabby Ghas
 
 ![The whole team at Manila Book Fair 2009](/assets/images/posts/manila-book-fair.jpg)
 ![The whole team at Manila Book Fair 2009](/assets/images/posts/gabby-ghas-team.jpg)
