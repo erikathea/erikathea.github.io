@@ -13,7 +13,7 @@ owner: erikathea
 jekyll-mentions: https://twitter.com
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 permalink: /blog/:title/
 
