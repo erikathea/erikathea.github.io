@@ -14,7 +14,7 @@ jekyll-mentions: https://twitter.com
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /blog/:title/
 
 # Set the Sass partials directory, as we're using @imports
