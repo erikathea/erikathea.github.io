@@ -35,8 +35,8 @@ Images:
 
 Tutorials over the web that I read:
 
-* [How I Built my Blog in one day](http://erjjones.github.io/blog/How-I-built-my-blog-in-one-day/)
-* [Make Parallax Website Responsive](https://ihatetomatoes.net/make-parallax-website-responsive/)
+* [How I Built my Blog in one day](http://erjjones.github.io/blog/How-I-built-my-blog-in-one-day)
+* [Make Parallax Website Responsive](https://ihatetomatoes.net/make-parallax-website-responsive)
 * [Github-pages - GoDaddy](https://medium.com/@LovettLovett/github-pages-godaddy-f0318c2f25a)
 * [Free SSL for Github Pages with Custom Domains](https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/)
 * [Perfect Full Page Background Image](https://css-tricks.com/perfect-full-page-background-image/)
