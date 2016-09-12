@@ -1,9 +1,8 @@
 ---
-layout: post
 title: Contact
-permalink: /contact/
+permalink: "/contact/"
+layout: post
 ---
-
 
 <form action="//formspree.io/hello@erikathea.com" method="POST">
   <div class="mdl-cell mdl-cell--12-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">

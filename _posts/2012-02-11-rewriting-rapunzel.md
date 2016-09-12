@@ -1,15 +1,18 @@
 ---
-title: "Rewriting Rapunzel"
-date: 2012-02-11
-permalink: /rewriting-rapunzel
-layout: post
+title: Rewriting Rapunzel
+date: 2012-02-11 00:00:00 Z
+permalink: "/rewriting-rapunzel"
 categories:
 - autobigraphy
 - scribbles
 - college days
-excerpt: Autobiography assignment for my PI100 class. She does not like the feeling of losing. Thus, she fears falling from her throne. In her gaming world, she is the heroine who seeks freedom from obligations and unwanted expectations.
-banner: /assets/images/dec.jpg
+layout: post
+excerpt: Autobiography assignment for my PI100 class. She does not like the feeling
+  of losing. Thus, she fears falling from her throne. In her gaming world, she is
+  the heroine who seeks freedom from obligations and unwanted expectations.
+banner: "/assets/images/dec.jpg"
 ---
+
 #####PI100 T0307 Autobiography
 
 # Rewriting Rapunzel

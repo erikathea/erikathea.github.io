@@ -1,49 +1,45 @@
-# Site settings
+---
 title: CodeTravel
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    author: erikathea
 email: hello@erikathea.com
 description: Dev. Backpacker. Storyteller. Dreamer. Personal site of Erika Thea.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://erikathea.com" # the base hostname & protocol for your site
-enforce_ssl: "www.erikathea.com"
+baseurl: ''
+url: https://erikathea.com
+enforce_ssl: www.erikathea.com
 twitter_username: erikathea
-github_username:  erikathea
+github_username: erikathea
 disqus: codetravel
 owner: erikathea
-
 jekyll-mentions: https://twitter.com
-
-# Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /blog/:title/
-
-# Set the Sass partials directory, as we're using @imports
+permalink: "/blog/:title/"
 sass:
   sass_dir: assets/stylesheets
   style: :compressed
-
-# Use the following plug-ins
 gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-mentions
-  - jemoji
-  - jekyll-redirect-from
-# Exclude these files from your production _site
+- jekyll-sitemap
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
 exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-
-# Front-Matter Defaults
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "erikathea"
-
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
 paginate: 5
 paginate_path: "/blog/:num/"
